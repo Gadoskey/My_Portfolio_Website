@@ -26,13 +26,13 @@ export default function About() {
           </div>
 
           <div className="flex items-center justify-center gap-4">
-            <a href="https://github.com/Gadoskey">
-              <img src="/github.png" alt="GitHub" className="border-2 rounded-full w-5 h-5 object-fill transform transition hover:scale-105" />
+            <a href="https://github.com/Gadoskey" target="_blank">
+              <img src="/github.png" alt="GitHub"  className="border-2 rounded-full w-5 h-5 object-fill transform transition hover:scale-105" />
               </a>
-            <a href="https://www.linkedin.com/in/mustapha-ope?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+            <a href="https://www.linkedin.com/in/mustapha-ope?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
               <img src="/linkedin.png" alt="GitHub" className="border-2 rounded-full w-5 h-5 object-fill transform transition hover:scale-105" />
               </a>
-            <a href="https://x.com/ym_opeyemi?s=21&t=8pdY6a_bpCDOsyufwS-n8w">
+            <a href="https://x.com/ym_opeyemi?s=21&t=8pdY6a_bpCDOsyufwS-n8w" target="_blank" >
               <img src="/x.png" alt="GitHub" className="bg-white border-2 rounded-full w-5 h-5 object-fill transform transition hover:scale-105" />
               </a>
           </div>
