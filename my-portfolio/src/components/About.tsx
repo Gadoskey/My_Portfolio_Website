@@ -9,7 +9,7 @@ export default function About() {
         <h1 className="text-[13px] sm:text-[20px] font-bold text-center">Software Engineer &amp; Technical Writer</h1>
         <img src="/profile.jpg" alt="My Profile" className="border-4 rounded-full w-32 h-32 object-fill" />
         <p className="text-center text-[11px] sm:text-[18px]">
-          Hi, i'm Opeyemi. Software Engineer with a strong background in technical writing 
+          Hi, i&apos;m Opeyemi. Software Engineer with a strong background in technical writing 
           and customer relations, bringing over two years of experience in developing user-focused solutions and enhancing 
           customer experiences.
         </p>
