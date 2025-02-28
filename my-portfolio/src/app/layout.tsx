@@ -19,6 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "My Portfolio Website",
   description: "Welcome to my website, built with Next.js and Tailwind CSS.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -26,6 +31,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-800`}
       >
