@@ -11,7 +11,7 @@ export default function Skills() {
     <div id="skills" className="pt-16">
       <section ref={ref} className="text-[8px] sm:text-[14px] py-8 bg-slate-900 text-white rounded-lg">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-[12px] sm:text-[15px] border-b pb-2 font-bold text-left mb-6">Skills</h2>
+          <h2 className="text-[12px] sm:text-[20px] border-b pb-2 font-bold text-left mb-6">Skills</h2>
 
           <motion.div
             initial={{ opacity: 0, x: -100 }}
@@ -22,8 +22,8 @@ export default function Skills() {
             {skills.map((skill, index) => (
               <motion.div
                 key={index}
-                className="bg-slate-800 py-1 px-0.5 sm:px-2 rounded-lg shadow-md text-[10px] sm:text-sm font-medium"
-                whileHover={{ scale: 1.02 }}
+                className="bg-slate-800 py-1 px-0.5 sm:px-2 rounded-lg shadow-md text-[10px] sm:text-[16px] font-medium"
+                whileHover={{ scale: 1.05 }}
               >
                 {skill}
               </motion.div>

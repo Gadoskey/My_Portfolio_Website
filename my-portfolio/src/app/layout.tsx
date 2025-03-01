@@ -17,12 +17,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio Website",
+  title: "Mustapha Opeyemi Yusuf",
   description: "Welcome to my website, built with Next.js and Tailwind CSS.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.ico",
   },
 };
 

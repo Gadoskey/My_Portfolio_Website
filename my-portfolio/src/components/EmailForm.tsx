@@ -48,7 +48,7 @@ export default function ContactForm() {
         onSubmit={sendEmail}
         className="pt-2 max-w-md mx-auto p-6 shadow-md rounded-lg relative"
       >
-        <h2 className="text-sm text-white font-bold mb-4 text-center">
+        <h2 className="text-sm lg:text-[20px] text-white font-bold mb-4 text-center">
           Send Me a Message
         </h2>
 
@@ -57,7 +57,7 @@ export default function ContactForm() {
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-2 mb-2 text-[12px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[10px]"
+          className="w-full p-3 mb-2 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
@@ -66,7 +66,7 @@ export default function ContactForm() {
           placeholder="Subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          className="w-full p-2 mb-2 text-[12px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[10px]"
+          className="w-full p-3 mb-2 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
@@ -74,13 +74,13 @@ export default function ContactForm() {
           placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full min-h-[75px] max-h-[100px] p-2 mb-1 text-[12px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[10px]"
+          className="w-full min-h-[75px] max-h-[100px] p-3 mb-1 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
         <button
           type="submit"
-          className="block w-fit py-1 px-2 bg-slate-600 text-white text-[11px] font-semibold rounded-md hover:bg-slate-700"
+          className="block w-fit py-1 px-3 bg-slate-600 text-white text-[11px] lg:text-[16px] font-semibold rounded-md hover:bg-slate-700"
           disabled={loading}
         >
           {loading ? "Sending..." : "Send"}

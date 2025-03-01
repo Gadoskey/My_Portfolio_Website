@@ -8,7 +8,7 @@ export default function About() {
     <header id="about" className="container mx-auto p-4 text-center">
       <div className="flex flex-col gap-6 sm:gap-7 items-center justify-center">
         <h1 className="text-[16px] sm:text-[26px] pt-2 font-bold text-center">Software Engineer &amp; Technical Writer</h1>
-        <div className="w-[200px] h-[200px] overflow-hidden rounded-full border-4">
+        <div className="w-[200px] h-[200px] overflow-hidden rounded-full border-4 sm:border-8">
           <Image
             src="/profile.jpg"
             alt="My Profile"
@@ -19,13 +19,13 @@ export default function About() {
           />
         </div>
         <p className="text-center text-[16px] sm:text-[30px]">
-          Hi, i&apos;m Opeyemi. Software Engineer with a strong background in technical writing 
+          Hi, i&apos;m Mustapha Opeyemi Yusuf. Software Engineer with a strong background in technical writing 
           and customer relations, bringing over two years of experience in developing user-focused solutions and enhancing 
           customer experiences.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-1 sm:gap-4 text-[12px] justify-center items-center">
           <div className="cursor-pointer relative  sm:py-2 bg-slate-900 transform transition hover:scale-105 rounded-[16px] border border-slate-950 hover:bg-slate-950 flex items-center justify-center gap-2">
-            <p className="relative text-[10px] sm:text-[16px] leading-none"> <ScrollLink to="contact" className="hover:text-white">Send Me a Message</ScrollLink> </p>
+            <p className="relative text-[10px] sm:text-[18px] leading-none"> <ScrollLink to="contact" className="hover:text-white">Send Me a Message</ScrollLink> </p>
             <Image src="/message_img.png" alt="Send Me a Message" width={20} height={20} className="relative border border-1 rounded-full object-fill" />
           </div>
 
@@ -37,14 +37,14 @@ export default function About() {
 
           <div className="flex items-center justify-center gap-4">
             <a href="https://github.com/Gadoskey" target="_blank">
-              <Image src="/github.png" alt="GitHub" width={5} height={5} className="border-2 rounded-full object-fill transform transition hover:scale-105" />
-              </a>
+              <Image src="/github.png" alt="GitHub" width={30} height={30} className="border-2 rounded-full object-fill transform transition hover:scale-105" />
+            </a>
             <a href="https://www.linkedin.com/in/mustapha-ope?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-              <Image src="/linkedin.png" alt="GitHub" width={5} height={5} className="border-2 rounded-full object-fill transform transition hover:scale-105" />
-              </a>
+              <Image src="/linkedin.png" alt="GitHub" width={30} height={30} className="border-2 rounded-full object-fill transform transition hover:scale-105" />
+            </a>
             <a href="https://x.com/ym_opeyemi?s=21&t=8pdY6a_bpCDOsyufwS-n8w" target="_blank" >
-              <Image src="/x.png" alt="GitHub" width={5} height={5} className="bg-white border-2 rounded-full object-fill transform transition hover:scale-105" />
-              </a>
+              <Image src="/x.png" alt="GitHub" width={30} height={30} className="bg-white border-2 rounded-full object-fill transform transition hover:scale-105" />
+            </a>
           </div>
         </div>
       </div>

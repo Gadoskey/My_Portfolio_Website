@@ -1,8 +1,8 @@
 export const articles = [
-  { title: "What happens when you type 'google.com'  ...?", date: "Jul 22, 2024" },
-  { title: "Using EmailJS: An Easy Way to Send Emails ...", date: "Jul 22, 2024" },
-  { title: "My First Postmortem: Why Nginx wasn't running ...", date: "Aug 18, 2024" },
-  { title: "My Experience with Nginx configuration ...", date: "Dec 30, 2024" },
+  { title: "What happens when you type 'google.com' in your browser and press 'Enter'?", date: "Jul 22, 2024" },
+  { title: "Using EmailJS: An Easy Way to Send Emails with JavaScript + HTML", date: "Jul 22, 2024" },
+  { title: "My First Postmortem: Why Nginx wasn't running on Port 80", date: "Aug 18, 2024" },
+  { title: "My Experience with Nginx configuration for HNG DevOps Stage 0", date: "Dec 30, 2024" },
   { title: "Deploying Your Next.js App with Vercel", date: "Dec 20, 2024" },
 ];
 
@@ -26,7 +26,7 @@ export const projects = [
     title: "ShopMeMart",
     description: "A modern eCommerce platform offering a seamless shopping experience. Supports user authentication, product browsing, and secure checkout. Features an intuitive UI with categorized listings and search functionality.",
     techUsed: ["MongoDB", "Express.js", "TypeScript", "Node.js"],
-    image: "/ecommerce.png",
+    image: "/project3.jpg",
     link: "/projects/2",
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     title: "AI-Powered Book Summarization API",
     description: "Fetches news from various sources and summarizes articles using AI. Categorizes content based on user preferences and trending topics. Supports authentication for personalized feeds. Delivers a streamlined and relevant news experience.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
-    image: "/gadoski_web_blog.jpg",
+    image: "/project4.jpg",
     link: "/projects/1",
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
     title: "Personalized News Aggregator API",
     description: "Converts images (PNG, JPG) and documents (Word, TXT) into high-quality PDFs. Supports batch processing and optional watermarking for branding. Ensures proper formatting and file optimization.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
-    image: "/gadoski_web_blog.jpg",
+    image: "/project2.jpg",
     link: "/projects/1",
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     title: "AI-Powered Email Classifier API",
     description: "Analyzes email text and categorizes messages like spam, promotions, or work-related. Extracts key details such as dates, names, and important actions. Uses NLP for accurate classification and better inbox organization.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
-    image: "/gadoski_web_blog.jpg",
+    image: "/project4.jpg",
     link: "/projects/1",
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     title: "Document Conversion API",
     description: " Fetches books from an online PDF bookstore and extracts text for analysis. Uses AI to generate concise and meaningful summaries for quick insights. Allows users to search for books and retrieve structured information.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
-    image: "/gadoski_web_blog.jpg",
+    image: "/project2.jpg",
     link: "/projects/1",
   },
 ];
