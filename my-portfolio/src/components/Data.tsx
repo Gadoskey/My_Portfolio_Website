@@ -1,16 +1,28 @@
 export const articles = [
-  { title: "What happens when you type 'google.com' in your browser and press 'Enter'?", date: "Jul 22, 2024" },
+  { title: "What happens when you type 'google.com' in your browser and press ...", date: "Jul 22, 2024" },
   { title: "Using EmailJS: An Easy Way to Send Emails with JavaScript + HTML", date: "Jul 22, 2024" },
   { title: "My First Postmortem: Why Nginx wasn't running on Port 80", date: "Aug 18, 2024" },
   { title: "My Experience with Nginx configuration for HNG DevOps Stage 0", date: "Dec 30, 2024" },
   { title: "Deploying Your Next.js App with Vercel", date: "Dec 20, 2024" },
 ];
 
+
+
+
 export const skills = [
-  "Flask", "Django", "Node.js", "Express.js", "Jinja2", "Python", "JavaScript", "TypeScript",
+  "Flask", "Django", "Jinja2", "Node.js", "Express.js", "JavaScript", "TypeScript",
   "React", "Next.js", "Tailwind CSS", "Bootstrap", "HTML", "CSS",
-  "SQL", "PostgreSQL", "MongoDB", "Git", "Docker", "Nginx"
+  "SQL", "PostgreSQL", "MongoDB", "K8s", "Git", "Docker", "Nginx"
 ];
+
+
+export const certificates = [
+  "Bachelor of Arts in English and Literary Studies, University of Lagos",
+  "Software Engineering, ALX ( Holberton School )"
+];
+
+
+
 
 export const projects = [
   {
@@ -32,7 +44,7 @@ export const projects = [
   {
     id: 3,
     title: "AI-Powered Book Summarization API",
-    description: "Fetches news from various sources and summarizes articles using AI. Categorizes content based on user preferences and trending topics. Supports authentication for personalized feeds. Delivers a streamlined and relevant news experience.",
+    description: "Fetches news from various sources and summarizes articles using AI. Categorizes content based on user preferences and trending topics. Supports authentication for personalized feeds.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
     image: "/project4.jpg",
     link: "/projects/1",
@@ -47,7 +59,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "AI-Powered Email Classifier API",
+    title: "My Portfolio Website",
     description: "Analyzes email text and categorizes messages like spam, promotions, or work-related. Extracts key details such as dates, names, and important actions. Uses NLP for accurate classification and better inbox organization.",
     techUsed: ["Next.js", "Tailwind CSS", "TypeScript"],
     image: "/project4.jpg",

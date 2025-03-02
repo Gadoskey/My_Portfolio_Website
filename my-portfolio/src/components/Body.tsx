@@ -1,6 +1,7 @@
 import Articles from "@/components/Articles";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Certificates from "@/components/Certificates";
 
 
 export default function Body() {
@@ -9,6 +10,7 @@ export default function Body() {
       <Articles />
       <Projects />
       <Skills />
+      <Certificates />
     </main>
   );
 }

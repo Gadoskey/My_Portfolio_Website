@@ -23,7 +23,7 @@ export default function ContactForm() {
 
       const data = await res.json();
       if (data.success) {
-        toast.success("Message sent successfully!", {
+        toast.success("Sent successfully!", {
           className: "bg-green-500 text-white text-xs p-2 min-h-[30px] rounded-md shadow-md",
         });
         setEmail("");
@@ -57,7 +57,7 @@ export default function ContactForm() {
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-3 mb-2 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
+          className="w-[80%] sm:w-full p-3 mb-2 text-[14px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
@@ -66,7 +66,7 @@ export default function ContactForm() {
           placeholder="Subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          className="w-full p-3 mb-2 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
+          className="w-[80%] sm:w-full p-3 mb-2 text-[14px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
@@ -74,13 +74,13 @@ export default function ContactForm() {
           placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full min-h-[75px] max-h-[100px] p-3 mb-1 text-[12px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
+          className="w-[80%] sm:w-full min-h-[75px] max-h-[100px] p-3 mb-1 text-[14px] lg:text-[16px] text-slate-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-[14px]"
           required
         />
 
         <button
           type="submit"
-          className="block w-fit py-1 px-3 bg-slate-600 text-white text-[11px] lg:text-[16px] font-semibold rounded-md hover:bg-slate-700"
+          className="block ml-10 sm:ml-0 w-fit py-1 px-3 bg-slate-600 text-white text-[14px] lg:text-[16px] font-semibold rounded-md hover:bg-slate-700"
           disabled={loading}
         >
           {loading ? "Sending..." : "Send"}

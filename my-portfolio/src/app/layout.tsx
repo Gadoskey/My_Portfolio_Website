@@ -36,7 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-800`}
       >
         <ToastContainer 
-          position="top-center"
+          position="top-right"
           autoClose={5000}
         />
         <Navbar />
