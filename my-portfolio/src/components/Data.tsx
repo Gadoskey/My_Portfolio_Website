@@ -1,8 +1,8 @@
 export const articles = [
-  { title: "What happens when you type 'google.com' in your  ...", date: "Jul 22, 2024" },
-  { title: "Using EmailJS: An Easy Way to Send Emails with ...", date: "Jul 22, 2024" },
-  { title: "My First Postmortem: Why Nginx wasn't running on ...", date: "Aug 18, 2024" },
-  { title: "My Experience with Nginx configuration for HNG DevOps ...", date: "Dec 30, 2024" },
+  { title: "What happens when you type 'google.com' in ...", date: "Jul 22, 2024" },
+  { title: "Using EmailJS: An Easy Way to Send Emails ...", date: "Jul 22, 2024" },
+  { title: "My First Postmortem: Why Nginx wasn't running ...", date: "Aug 18, 2024" },
+  { title: "My Experience with Nginx configuration for ...", date: "Dec 30, 2024" },
   { title: "Deploying Your Next.js App with Vercel", date: "Dec 20, 2024" },
 ];
 

@@ -12,8 +12,8 @@ export default function Articles() {
         <div className="space-y-3">
           {articles.map((article, index) => (
             <div key={index} className="flex justify-between items-start p-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
-              <a href="" className="text-[11px] sm:text-[16px] hover:underline">{article.title}</a>
-              <p className="text-[10px] sm:text-[16px] text-gray-400">{article.date}</p>
+              <a href="" className="text-[13px] sm:text-[16px] hover:underline">{article.title}</a>
+              <p className="text-[13px] sm:text-[16px] text-gray-400">{article.date}</p>
             </div>
           ))}
         </div>
