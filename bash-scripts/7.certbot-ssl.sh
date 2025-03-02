@@ -27,9 +27,12 @@ server {
     ssl_ciphers HIGH:!aNULL:!MD5;
 
     location / {
-        root /var/www/html;
-        index index.html index.htm;
-        try_files \$uri \$uri/ =404;
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
     }
 
     location /.well-known/acme-challenge/ {
