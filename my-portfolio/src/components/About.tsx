@@ -7,7 +7,7 @@ export default function About() {
   return (
     <header id="about" className="container mx-auto p-2 sm:p-4 text-center">
       <div className="flex flex-col gap-7 items-center justify-center">
-        <h1 className="text-[19px] sm:text-[26px] sm:pt-2 font-bold text-center">Software Engineer &amp; Technical Writer</h1>
+        <h1 className="text-[19px] sm:text-[26px] pt-1 sm:pt-2 font-bold text-center">Software Engineer &amp; Technical Writer</h1>
         <div className="w-[200px] h-[200px] overflow-hidden rounded-full border-[7px]">
           <Image
             src="/profile.jpg"
@@ -23,7 +23,7 @@ export default function About() {
           and customer relations, bringing over two years of experience in developing user-focused solutions and enhancing 
           customer experiences.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-1 text-[14px] sm:text-[18px] justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-1 text-[15px] sm:text-[18px] justify-center items-center">
           <div className="cursor-pointer relative px-3 py-2 bg-slate-900 transform transition hover:scale-105 rounded-[16px] border border-slate-950 hover:bg-slate-950 flex items-center justify-center gap-2">
             <p className="relative  leading-none"> <ScrollLink to="contact" className="hover:text-white">Send Me a Message</ScrollLink> </p>
             <Image src="/message_img.png" alt="Send Me a Message" width={20} height={20} className="relative border border-1 rounded-full object-fill" />
