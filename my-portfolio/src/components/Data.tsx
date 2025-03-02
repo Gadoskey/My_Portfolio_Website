@@ -1,8 +1,8 @@
 export const articles = [
-  { title: "What happens when you type 'google.com' in your browser and press ...", date: "Jul 22, 2024" },
-  { title: "Using EmailJS: An Easy Way to Send Emails with JavaScript + HTML", date: "Jul 22, 2024" },
-  { title: "My First Postmortem: Why Nginx wasn't running on Port 80", date: "Aug 18, 2024" },
-  { title: "My Experience with Nginx configuration for HNG DevOps Stage 0", date: "Dec 30, 2024" },
+  { title: "What happens when you type 'google.com' in your  ...", date: "Jul 22, 2024" },
+  { title: "Using EmailJS: An Easy Way to Send Emails with ...", date: "Jul 22, 2024" },
+  { title: "My First Postmortem: Why Nginx wasn't running on ...", date: "Aug 18, 2024" },
+  { title: "My Experience with Nginx configuration for HNG DevOps ...", date: "Dec 30, 2024" },
   { title: "Deploying Your Next.js App with Vercel", date: "Dec 20, 2024" },
 ];
 
@@ -17,7 +17,7 @@ export const skills = [
 
 
 export const certificates = [
-  "Bachelor of Arts in English and Literary Studies, University of Lagos",
+  "B.A. in English and Literary Studies, University of Lagos",
   "Software Engineering, ALX ( Holberton School )"
 ];
 

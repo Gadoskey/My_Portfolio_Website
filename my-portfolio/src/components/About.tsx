@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <header id="about" className="container mx-auto p-2 sm:p-4 text-center">
-      <div className="flex flex-col gap-4 sm:gap-7 items-center justify-center">
-        <h1 className="text-[18px] sm:text-[26px] sm:pt-2 font-bold text-center">Software Engineer &amp; Technical Writer</h1>
+      <div className="flex flex-col gap-6 sm:gap-7 items-center justify-center">
+        <h1 className="text-[19px] sm:text-[26px] sm:pt-2 font-bold text-center">Software Engineer &amp; Technical Writer</h1>
         <div className="w-[200px] h-[200px] overflow-hidden rounded-full border-4 sm:border-[7px]">
           <Image
             src="/profile.jpg"
