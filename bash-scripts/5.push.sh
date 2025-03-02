@@ -1,8 +1,6 @@
 #!/bin/bash
 
-APP_DIR="~/My_Portfolio_Website/my-portfolio"
-
-cd \$APP_DIR
+cd ~/My_Portfolio_Website/my-portfolio
 git add .
 git commit -m "Automatic Commit"
 git push

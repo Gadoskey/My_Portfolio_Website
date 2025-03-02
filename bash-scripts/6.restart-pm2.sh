@@ -1,6 +1,5 @@
 # Restart portfolio app
 
-APP_DIR="~/My_Portfolio_Website/my-portfolio"
-cd \$APP_DIR
+cd ~/My_Portfolio_Website/my-portfolio
 pm2 restart portfolio
 echo "Next.js app restarted!"
